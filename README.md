@@ -3,12 +3,21 @@ Attributes support
 
 ##Paragraphs
 
-    {.ghgh}
+id & class support
+
+    {.id}
+    This is a normal paragraph.  
+    This is a preformatted  
+    code block.
+
+    {.class}
     This is a normal paragraph.  
     This is a preformatted  
     code block.
 
 ##Headers
+
+class support
 
     #Header 1 {#heading1} {.foo bar}
     
@@ -18,8 +27,12 @@ Attributes support
 
 ##Links
 
+class support
+
     An [example](http://url.com/ "Title" {.foo})
 
 ##Images
+
+class support
 
     ![alt text](/path/img.jpg "Title" {.bar})
