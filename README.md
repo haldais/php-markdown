@@ -5,7 +5,7 @@ Attributes support
 
 id & class support
 
-    {.id}
+    {#id}
     This is a normal paragraph.  
     This is a preformatted  
     code block.
